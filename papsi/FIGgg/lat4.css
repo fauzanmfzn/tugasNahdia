@@ -1,0 +1,11 @@
+img{
+    height: 100px;
+}
+
+section{
+    display: flex;
+    border: 7px solid darkgreen;
+    border-radius: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

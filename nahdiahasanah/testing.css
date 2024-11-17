@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header p{
+    padding-left: 50px;
+    padding: 10px;
+}

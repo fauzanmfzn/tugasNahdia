@@ -1,0 +1,218 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2px;
+
+}
+ header p{
+    padding: 19px;
+    padding-left: 25px;
+ }
+ header p:hover{
+    text-decoration: underline;
+    color: blue;
+ }
+ header h1{
+    font-style: italic;
+ }
+ header h1::after{
+    content:".com";
+    color: orange;
+    font-style: italic;    
+ }
+
+ .layout{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 75px;
+  grid-template-rows: 200px 100px 245px 245px;
+  
+  padding-left: 15px;
+ 
+  
+ }
+
+ .headline{
+    grid-column: 1 / span 3;
+    grid-row: 1/span 2;
+    padding: 20px;
+   
+background-image:url('https://asset.kompas.com/crops/2wAvfrMpJchkArFKA_WyaSjYYTc=/0x0:0x0/740x500/data/photo/2024/09/13/66e40a65dd5a2.jpg') ;
+border-radius: 15px;
+    
+ }
+ .judulutama h3{
+   position: absolute;
+   background-color: white;
+   border-radius: 20px;
+   font-size:medium;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: blue;
+ }
+ 
+ .gambarsatu{
+    grid-column: 1 ;
+    grid-row: 3;
+    
+ }
+
+ .gambarsatu img{
+    height: 150px;
+    border-radius: 15px;
+ }
+ .gambarsatu p:hover{
+    color: rgb(94, 164, 211);
+ }
+ .gambardua{
+    grid-column: 2;
+    grid-row: 3;
+    padding-left: 13px;
+  
+ }
+ .gambardua img{
+    height: 150px;
+    border-radius: 15px;
+   
+ }
+
+ .gambardua p:hover{
+    color: rgb(94, 164, 211);
+    
+ }
+ .gambartiga{
+    grid-column: 3;
+    grid-row: 3;
+    padding-left: 15px;
+ }
+ .gambartiga img{
+    height: 150px;
+    border-radius: 15px;
+   
+ }
+ .gambartiga p:hover{
+    color: rgb(94, 164, 211);
+ }
+.gambarempat{
+    grid-column: 1;
+    grid-row: 4;
+    
+    
+}
+.gambarempat img{
+    height: 150px;
+    border-radius: 15px;
+}
+.gambarempat p:hover{
+    color: rgb(94, 164, 211);
+ }
+.gambarlima{
+    grid-column: 2;
+    grid-row: 4;
+    padding-left: 13px;
+   
+}
+.gambarlima img{
+    height: 150px;
+    border-radius: 15px;
+    
+}
+.gambarlima p:hover{
+    color: rgb(94, 164, 211);
+ }
+.gambarenam{
+    grid-column: 3;
+    grid-row: 4;
+    padding-left: 15px;
+  
+}
+.gambarenam img{
+    height: 150px;
+    border-radius: 15px;
+}
+.gambarenam p:hover{
+    color: rgb(94, 164, 211);
+ }
+.berita{
+    grid-column: 4;
+    grid-row: 1 / span 4;
+   
+}
+.daftarberita{
+    display: flex;
+    padding: 5px;
+    align-items:center ;
+    
+}
+.nomorberita{
+    padding: 15px;
+    border-radius: 500%;
+   
+    align-items:center;
+    padding-bottom: 1px;
+   
+    font-size:150%;
+  
+    
+}
+.judulberita{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.judulberita:hover{
+    color: rgb(94, 164, 211);
+}
+
+.iklan{
+    grid-column: 5/span 6;
+    grid-row: 1/span 4;
+    
+   
+}
+
+.iklan img{
+    height: 550px;
+    padding: 13px;
+    border-radius: 20px;
+    
+}
+.iklan p {
+   padding-left: 19px;
+   
+}
+.iklan p::after{
+    content: " Gabung Kompas.com";
+    color: blue;
+}
+
+.berita h2::before{
+    content: "|  ";
+    color: orange;
+    padding-left: 5px;
+    align-items: flex-start;
+}
+ 
+ .headline h1{
+    padding-top: 25%;
+    padding-left: 5%;
+    color: aliceblue;
+ }
+ 
+ 
+ .type{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: small;
+    color: orange;
+ }
+ .typelast{
+    padding: 25px;
+    padding-left: 40px;
+   
+    color: blue;
+ }
+ h5{
+    color: orange;
+ }
+ 

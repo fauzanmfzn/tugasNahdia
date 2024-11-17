@@ -1,0 +1,24 @@
+.close-btn {
+    position:absolute;
+    top: 5px;
+    right: 150px;
+    color: white;
+    cursor: pointer;
+}
+.col-md img{
+    width: 1110px;
+ 
+}
+ul li{
+    font-size:small;
+}
+.rubah-warna{
+    color: violet !important;
+    
+}
+.navbar-nav .nav-link:hover{
+    color: orange !important; 
+}
+.custom-abu{
+    color: gray !important;
+}

@@ -1,0 +1,87 @@
+.close-btn {
+    position:absolute;
+    top: 5px;
+    right: 150px;
+    color: white;
+    cursor: pointer;
+}
+.col-md img{
+    width: 1110px;
+ 
+}
+ul li{
+    font-size:small;
+}
+.rubah-warna{
+    color: violet !important;
+    
+}
+.nav-link:hover{
+    color: orange !important; 
+}
+.custom-abu{
+    color: gray !important;
+}
+.navbar-brand img{
+height: 40px !important;
+width: 120px !important;
+}
+.btn{
+    background-color:orange !important;
+    color: aliceblue !important;
+}
+.test{
+   width: 30px;
+}
+.pertama{
+    display: flex;
+   padding: 5px !important;
+   list-style-type: none;
+}
+.spasi{
+    padding-left: 70px;
+    color: black;
+}
+.jam{
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+}
+.jamm{
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+}
+.jammm{
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+}
+.tekss{
+    color: orangered;
+}
+.titik{
+    color: black;
+}
+.belanja-teks{
+    color: orangered !important;
+}
+.card-img-top{
+    height: 180px !important;
+    width: 150px !important;
+}
+
+.flash-sale .card{
+    width: 166px !important;
+}
+.flash-sale .card-text{
+    width: 155px !important;
+}
+.flash-sale .card:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+              
+}
+.col-md-2 .gaya{
+    height: 180px !important;
+    width: 166px !important;
+}

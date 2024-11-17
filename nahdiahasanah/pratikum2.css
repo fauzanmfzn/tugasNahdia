@@ -1,0 +1,79 @@
+
+.pertama{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(236, 236, 199);
+    flex-wrap: wrap;
+    
+}
+
+#logo{
+    height: 125px;
+    width: 125px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.clothes{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 5px; 
+    border-radius: 5px;  
+   
+}
+.first{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+   
+    
+    
+}
+
+.first :hover{
+    color: #638ab9; 
+}
+.first:active{
+    color: #04389b;
+}
+.instagram{
+    float: right;
+    height: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(202, 202, 161);
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
+}
+.text{
+    color: black;
+    text-decoration: none;
+    
+}
+.text :hover{
+    color: #638ab9; 
+}
+.text:active{
+    color: #04389b;
+}
+
+.another{
+    margin-top: 26%;
+}

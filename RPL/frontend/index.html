@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Import Tailwind CSS -->
+    <script src="config.js"></script> <!-- Import config.js -->
+    <script>
+        // Check if the user is authenticated (for demonstration, this uses localStorage)
+        window.onload = function () {
+            if (!localStorage.getItem('user')) {
+                window.location.href = 'signin.html'; // Redirect to signin page if not authenticated
+            }
+        }
+
+        // Function to sign out the user
+        function signOut() {
+            localStorage.removeItem('user'); // Remove user from localStorage
+            alert("You have been signed out."); // Notify user
+            window.location.href = 'signin.html'; // Redirect to signin page
+        }
+    </script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="w-full max-w-2xl p-8 bg-white border border-gray-200 rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">Welcome to the Index Page!</h1>
+        <p class="text-center text-gray-600 mb-6">This is the main page accessible only when authenticated.</p>
+        <div class="flex justify-center">
+            <button onclick="signOut()"
+                class="px-6 py-2 text-white bg-red-500 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500">
+                Sign Out
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

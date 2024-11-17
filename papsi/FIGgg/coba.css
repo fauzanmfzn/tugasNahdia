@@ -1,0 +1,48 @@
+h1{
+    color: red;
+    
+}
+img{
+    height: 300px;
+}
+section{
+    display:flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    border:25px solid;
+    border-color: green;
+    
+    
+}
+main p{
+    color :blue;
+}
+div > p{
+    color: red;
+}
+div ~ p{
+    color:yellow;
+}
+h2{
+    color:red;
+}
+h2{
+    color: blue;
+}
+.buatGrid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "h" "b"
+    "c" "d";
+}
+.h{
+   grid-area:"h";
+}
+.b{
+   grid-area:"b";
+}
+.c{
+   grid-area :"d";
+}

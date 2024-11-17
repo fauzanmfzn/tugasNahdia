@@ -1,0 +1,59 @@
+.main{
+    background-image: url('https://img.freepik.com/premium-photo/hot-coffee-morning-wooden-table_838382-54.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 100px;
+    color: white;
+}
+.main h6{
+    color: white;
+}
+.heading{
+    padding-top: 50px;
+    font-size: 1rem;
+    font-weight: bold;   
+}
+.heading::after{
+    content: ' TOP-TIER';
+    color: brown;
+}
+.col-md-4 img{
+    height: 35vh;  
+    justify-content: center;  
+}
+.card{
+    border: none;
+    
+}
+.container{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.headingDua{
+    padding-top: 50px;
+    font-size: 1rem;
+    font-weight: bold;   
+}
+.headingDua::after{
+    content: '-MENU';
+    color: brown;
+}
+.col img{
+    height: 250px;
+    border-radius: 0%;
+    
+    
+}
+.satu{
+    margin-top: 0%;
+}

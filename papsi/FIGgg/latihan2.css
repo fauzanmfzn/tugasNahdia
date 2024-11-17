@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 1fr 50px;
+    }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        border: 1px solid black ;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+
+        }
+        main {
+        grid-column: 2;
+        grid-row: 2;
+        border: 1px solid black ;
+        background-color:lightgoldenrodyellow;
+        padding: 16px;
+        }
+
+        aside {
+            grid-column: 1;
+            grid-row: 2;
+            border: 1px solid black ;
+            background-color:lightgoldenrodyellow;
+            padding: 16px;
+            }
+            footer {
+            grid-column: 1 / 3;
+            grid-row: 3;
+            border: 1px solid black ;
+            padding: 16px;
+            background-color:lightgoldenrodyellow;
+            padding: 16px;
+            }

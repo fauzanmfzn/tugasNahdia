@@ -1,0 +1,67 @@
+.kalender{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+   "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    "minggu" "senin" "selasa" "rabu" "kamis" "jumat" "sabtu"
+    ;
+
+}
+.minggu{
+    grid-area: "minggu";
+    color: red;
+}
+.senin{
+    grid-area: "senin";
+}
+.selasa{
+    grid-area: "selasa" ;
+}
+.rabu{
+    grid-area: "rabu";
+}
+.kamis{
+    grid-area: "kamis";
+}
+.jumat{
+    grid-area: "jumat";
+    color: green;
+}
+.sabtu{
+    grid-area: "sabtu";
+    color: red;
+}
+
+#merah{
+    color: red;
+}
+#judul{
+   
+    text-align: center;
+   
+}
+
+.border{
+    border: 1px solid black;
+}
+p{
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 35px;
+    
+    
+}
+header{
+    text-align: center;
+    padding: 5px;
+}
+.borderbawah{
+    padding: 43px;
+    border-bottom: 1px solid black;
+}

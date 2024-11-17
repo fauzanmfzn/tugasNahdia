@@ -1,0 +1,16 @@
+body{
+    background-image: url('Tampilan\ Deskop\ Vertikal.png');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 1cm; */
+}
+
+img{
+   padding-left: 900px;
+   padding-top: 250px;
+   height: 400px;
+  
+}

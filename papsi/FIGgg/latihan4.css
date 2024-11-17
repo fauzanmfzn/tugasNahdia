@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 10% 25% 25% 25%;
+    grid-template-rows: 50px 188px 188px 50px;
+    grid-template-areas:
+        "header header header iklan"
+        "aside section1 section2 iklan "
+        "aside section3 section3 iklan"
+        "aside footer footer iklan";
+    }
+    header{
+        grid-area: header;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        text-align: center;
+        border: 1px solid black ;
+    }
+    .asidee{
+        grid-area: aside;
+        border: 1px solid black ;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        height: 230px;
+        text-align: center;
+        padding-top: 300px;
+    }
+    #satu{
+        grid-area: section1;
+        border: 1px solid black ;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        height: 100px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    #dua{
+        grid-area: section2;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        height: 100px;
+        border: 1px solid black ;
+        text-align: center;
+        padding-top: 70px;
+    }
+    #tiga{
+        grid-area: section3;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        height: 150px;
+        border: 1px solid black ;
+        text-align: center;
+        padding-top: 120px;
+        
+    }
+    #iklan{
+        grid-area: iklan;
+        border: 1px solid black ;
+        padding: 16px;
+        background-color:lightgoldenrodyellow;
+        height: 360px;
+        text-align: center;
+        padding-top: 230px;
+        width: 100px;
+    }
+    footer{
+        grid-area: footer;
+        padding: 25px;
+        background-color:lightgoldenrodyellow;
+        margin-top: 100px;
+        text-align: center;
+        border: 1px solid black ;
+    }

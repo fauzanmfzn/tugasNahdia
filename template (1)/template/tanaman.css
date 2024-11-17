@@ -1,0 +1,60 @@
+
+body {
+  background-color: #D6CDBB;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: black 2px 4px 12px;
+}
+
+#taman {
+  background-color: white;
+  color: black;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-radius: 3em;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+#taman p {
+  padding-top: 8px;
+  font-size: 2em;
+}
+
+#plant-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+#plant-container img {
+  cursor: url("fig/penyiram.png"), pointer;
+}
+
+.siram {
+  filter: saturate(5);
+}
+
+#plant-container img:nth-of-type(2n) {
+  width: 7em;
+  height: 7em;
+}
+
+#plant-container img:nth-of-type(2n+1) {
+  width: 17em;
+  height: 17em;
+}
+
+#plant-container img:nth-of-type(3n) {
+  width: 12em;
+  height: 12em;
+}

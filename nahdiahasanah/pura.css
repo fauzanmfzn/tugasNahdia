@@ -1,0 +1,80 @@
+header{
+    display: flex;
+
+}
+
+header img{
+    height: 100px;
+}
+
+header ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+header li{
+    padding-left:100px;
+    
+}
+
+#text{
+    color: red;
+}
+p{
+    color: blue;
+}
+
+<nav class = "navbar bg-body-tertiary">
+<div class = "container-fluid">
+<a href = "djdhd"><img src = "dhdd" alt = "djdh">gambar</a>
+<form class = "d-flex" role = "search">
+<input class = "form-control" placeholder = "Search" aria-label="Search"
+<button class ="btn btn-outline-success" type = "submit">search</button>
+</form>
+</div>
+</nav>
+
+<div class = "card">
+<div class = "card-header">hai</div>
+
+<ul class = "list-group list-group-flush">
+<li class = "list-group-item">iya</li>
+<li class = "list-group-item">tidak</li>
+<li class = "list-group-item">yes</li>
+<li class = "list-group-item">no</li>
+</ul>
+
+</div>
+
+<div class= "row">
+<div class = "col col-md-4">
+<div class = "card">
+<img src = "dkhkdhkd">
+<div class = "card-body">
+<h5 class = "card-title">dkkd</h5>
+<p class = "card-text">dkjd</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class= "row">
+<div class = "col col-md-4">
+<div class = "card">
+<div class = "row">
+<div class = "col-md-6">
+<img src = "kdkdhkd" class = "img-fluid">
+</div>
+<div class = "col-md-4">
+<div class= "card-body" >
+<h5 class = "card-title">ddjd</h5>
+<p class = "card-text">djhd</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
