@@ -63,8 +63,9 @@ width: 120px !important;
 .titik{
     color: black;
 }
-.belanja-teks{
+.container .belanja-teks{
     color: orangered !important;
+    text-decoration: none !important;
 }
 .card-img-top{
     height: 180px !important;
@@ -72,7 +73,7 @@ width: 120px !important;
 }
 
 .flash-sale .card{
-    width: 166px !important;
+    /* width: 166px !important; */
 }
 .flash-sale .card-text{
     width: 155px !important;
@@ -82,6 +83,49 @@ width: 120px !important;
               
 }
 .col-md-2 .gaya{
-    height: 180px !important;
-    width: 166px !important;
+    height: 185px !important;
+    width: 179px !important;
+}
+.card-body .foto-kecil{
+    height: 50px !important;
+   
+    position: absolute !important;
+    /* background-color: white;
+    border: 2px;
+    border-color: blueviolet; */
+    top: 148px;
+    left: 60px;
+}
+.col-md-2 .card:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+/* .col-md .foto-kategori{
+    height: 100px;
+    width: 100px;
+} */
+.d-flex .gambar-kategori{
+   padding-top: 25px;
+   padding-left: 22px;
+   padding-right: 22px;
+}
+.d-flex .kategori-foto{
+    height: 90px;
+    width: 100px;
+}
+.d-flex .gambar-kategori:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.col-md-4 .foto-footer{
+    height: 91px;
+    
+}
+.card .foto-lazada{
+    height: 80px !important;
+}
+.warna-orange{
+    color: orangered !important;
+}
+.background-orange{
+    background-color: orangered !important;
+    background-position: cover;
 }
